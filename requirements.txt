@@ -1,0 +1,2 @@
+# Reference project model dependencies
+-r project/model/requirements.txt

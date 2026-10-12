@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tally — AI Finance Controller</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">T</span>
+      <span class="brand-name">TALLY</span>
+      <span class="brand-tag">AI Finance Controller</span>
+    </div>
+    <nav class="topnav" id="mainTabs">
+      <button class="nav-tab active" data-view="reconcile">Reconcile</button>
+      <button class="nav-tab" data-view="overview" disabled>Overview</button>
+      <button class="nav-tab" data-view="exceptions" disabled>Exceptions</button>
+      <button class="nav-tab" data-view="audit" disabled>Audit Trail</button>
+      <button class="nav-tab" data-view="ask" disabled>Ask Controller</button>
+      <button id="settingsToggle" class="ghost-btn" type="button">Settings</button>
+    </nav>
+  </header>
+
+  <div id="settingsDrawer" class="settings-drawer" hidden>
+    <label>
+      API endpoint
+      <input type="text" id="apiBase" value="http://localhost:8000" />
+    </label>
+    <p class="settings-hint">Point this at wherever <code>uvicorn api.app:app</code> from the <code>model/</code> folder is running.</p>
+  </div>
+
+  <main class="app-shell">
+
+    <!-- ================= RECONCILE VIEW ================= -->
+    <section id="view-reconcile" class="view active">
+      <div class="view-head">
+        <p class="eyebrow">Every transaction has a lifecycle</p>
+        <h1>Invoice → Settlement → Bank.<br><em>Verify the whole chain, not just a row.</em></h1>
+        <p class="view-sub">Upload your invoices (required) plus settlements and bank statements (optional — leave either out to demo a "missing record" scenario). Attach a ground-truth file to see real precision, recall, and F1, not just a match count.</p>
+      </div>
+
+      <div class="paper upload-panel">
+        <div class="upload-grid">
+          <label class="file-slot">
+            <span class="file-slot-label">Invoices <em>required</em></span>
+            <input type="file" id="fileInvoices" accept=".csv" />
+            <span class="file-slot-name" id="nameInvoices">No file selected</span>
+          </label>
+          <label class="file-slot">
+            <span class="file-slot-label">Settlements <em>optional</em></span>
+            <input type="file" id="fileSettlements" accept=".csv" />
+            <span class="file-slot-name" id="nameSettlements">No file selected</span>
+          </label>
+          <label class="file-slot">
+            <span class="file-slot-label">Bank transactions <em>optional</em></span>
+            <input type="file" id="fileBank" accept=".csv" />
+            <span class="file-slot-name" id="nameBank">No file selected</span>
+          </label>
+          <label class="file-slot">
+            <span class="file-slot-label">Ground truth <em>optional</em></span>
+            <input type="file" id="fileGroundTruth" accept=".json" />
+            <span class="file-slot-name" id="nameGroundTruth">No file selected</span>
+          </label>
+        </div>
+
+        <div class="panel-divider" data-label="Match rules"></div>
+        <div class="config-grid">
+          <label>Amount tolerance (₹)<input type="number" id="cfgAmountTol" value="1.00" step="0.01" min="0" /></label>
+          <label>Date window (days)<input type="number" id="cfgDateWindow" value="3" step="1" min="0" /></label>
+          <label>Auto-reconcile ≥ (%)<input type="number" id="cfgAutoThresh" value="95" step="0.5" min="0" max="100" /></label>
+          <label>AI investigation ≥ (%)<input type="number" id="cfgAiThresh" value="80" step="0.5" min="0" max="100" /></label>
+        </div>
+        <label class="checkbox-row">
+          <input type="checkbox" id="cfgEnableLlm" checked />
+          Enable AI investigation for ambiguous cases (needs ANTHROPIC_API_KEY on the backend)
+        </label>
+
+        <button id="runBtn" class="cta-primary run-btn" type="button" disabled>
+          <span class="run-label">Add an invoices file to begin</span>
+        </button>
+        <p id="errorMsg" class="error-msg" hidden></p>
+      </div>
+
+      <div id="loadingState" class="loading-state" hidden>
+        <div class="loader-stamp"></div>
+        <p id="loadingText">Parsing documents…</p>
+      </div>
+
+      <div class="sample-hint">
+        <strong>Try it fast:</strong> use <code>data/synthetic/100_seed42/*.csv</code> and its <code>ground_truth.json</code> from the project — generated by <code>scripts/generate_dataset.py --records 100 --seed 42</code>.
+      </div>
+    </section>
+
+    <!-- ================= OVERVIEW VIEW ================= -->
+    <section id="view-overview" class="view">
+      <div class="view-head">
+        <p class="eyebrow">Run <span id="overviewRunId">—</span></p>
+        <h1>The ledger, closed.</h1>
+      </div>
+
+      <div class="paper metrics-panel">
+        <div class="rate-row">
+          <div class="stamp-wrap">
+            <div id="matchStamp" class="stamp stamp-neutral">
+              <span id="matchRateValue">0%</span>
+              <span class="stamp-caption">match rate</span>
+            </div>
+          </div>
+          <dl class="metric-grid">
+            <div><dt>Precision</dt><dd id="mPrecision">—</dd></div>
+            <div><dt>Recall</dt><dd id="mRecall">—</dd></div>
+            <div><dt>F1</dt><dd id="mF1">—</dd></div>
+            <div><dt>Auto-resolved</dt><dd id="mAuto">—</dd></div>
+            <div><dt>Human review</dt><dd id="mHuman">—</dd></div>
+            <div><dt>Unresolved</dt><dd id="mUnresolved">—</dd></div>
+            <div><dt>Reconciled value</dt><dd id="mReconciledValue">—</dd></div>
+            <div><dt>Unreconciled value</dt><dd id="mUnreconciledValue">—</dd></div>
+            <div><dt>Throughput</dt><dd id="mThroughput">—</dd></div>
+            <div><dt>LLM calls</dt><dd id="mLlmCalls">—</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="paper" style="margin-top:20px;">
+        <div class="panel-head"><span class="panel-index">Breakdown</span><h2>Exceptions by category</h2></div>
+        <div id="categoryBars" class="category-bars"></div>
+      </div>
+    </section>
+
+    <!-- ================= EXCEPTIONS VIEW ================= -->
+    <section id="view-exceptions" class="view">
+      <div class="view-head">
+        <p class="eyebrow">Nothing is cherry-picked</p>
+        <h1>Every exception, with a reason.</h1>
+      </div>
+
+      <div id="exceptionsListWrap" class="paper">
+        <div class="panel-head"><span class="panel-index">Open items</span><h2>Exception queue</h2></div>
+        <table class="ledger-table">
+          <thead><tr><th>ID</th><th>Category</th><th>Severity</th><th class="num">Confidence</th><th>Status</th><th></th></tr></thead>
+          <tbody id="exceptionsBody"></tbody>
+        </table>
+      </div>
+
+      <div id="exceptionDetailWrap" class="paper" hidden>
+        <button id="backToExceptions" class="ghost-btn" type="button">← Back to queue</button>
+        <div id="exceptionDetailContent"></div>
+      </div>
+    </section>
+
+    <!-- ================= AUDIT VIEW ================= -->
+    <section id="view-audit" class="view">
+      <div class="view-head">
+        <p class="eyebrow">Every decision, logged</p>
+        <h1>The audit trail.</h1>
+      </div>
+      <div class="paper">
+        <table class="ledger-table">
+          <thead><tr><th>Transaction</th><th>Decision</th><th class="num">Confidence</th><th>Reason</th><th>Policy</th><th>Time</th></tr></thead>
+          <tbody id="auditBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ================= ASK CONTROLLER VIEW ================= -->
+    <section id="view-ask" class="view">
+      <div class="view-head">
+        <p class="eyebrow">Natural-language finance controller</p>
+        <h1>Ask, don't grep.</h1>
+        <p class="view-sub">Answers are generated by querying structured tools (metrics, exceptions, audit history, policy) — never by dumping the dataset into the model.</p>
+      </div>
+      <div class="paper">
+        <div class="ask-examples">
+          <button class="chip" data-q="What is our total unreconciled value?">Total unreconciled value?</button>
+          <button class="chip" data-q="Show me all fee discrepancies.">Fee discrepancies</button>
+          <button class="chip" data-q="Which merchant has the most exceptions?">Worst merchant</button>
+          <button class="chip" data-q="How many transactions were automatically reconciled?">Auto-reconciled count</button>
+        </div>
+        <div class="ask-row">
+          <input type="text" id="askInput" placeholder="Why is INV-00042 unresolved?" />
+          <button id="askBtn" class="cta-primary" type="button">Ask</button>
+        </div>
+        <div id="askAnswer" class="ask-answer"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Tally — an AI Finance Controller built on LangGraph. Every rupee, verified.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

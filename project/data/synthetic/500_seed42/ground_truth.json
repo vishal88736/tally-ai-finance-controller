@@ -1,0 +1,2502 @@
+{
+  "INV-00001": {
+    "expected_bank_transaction": "UTR-00001",
+    "expected_settlement": "SET-00001",
+    "status": "matched"
+  },
+  "INV-00002": {
+    "expected_bank_transaction": "UTR-00002",
+    "expected_settlement": "SET-00002",
+    "status": "matched"
+  },
+  "INV-00003": {
+    "expected_bank_transaction": "UTR-00003",
+    "expected_settlement": "SET-00003",
+    "status": "matched"
+  },
+  "INV-00004": {
+    "expected_bank_transaction": "UTR-00004",
+    "expected_settlement": "SET-00004",
+    "status": "matched"
+  },
+  "INV-00005": {
+    "expected_bank_transaction": "UTR-00005",
+    "expected_settlement": "SET-00005",
+    "status": "matched"
+  },
+  "INV-00006": {
+    "expected_bank_transaction": "UTR-00006",
+    "expected_settlement": "SET-00006",
+    "status": "matched"
+  },
+  "INV-00007": {
+    "expected_bank_transaction": "UTR-00007",
+    "expected_settlement": "SET-00007",
+    "status": "matched"
+  },
+  "INV-00008": {
+    "expected_bank_transaction": "UTR-00008",
+    "expected_settlement": "SET-00008",
+    "status": "matched"
+  },
+  "INV-00009": {
+    "expected_bank_transaction": "UTR-00009",
+    "expected_settlement": "SET-00009",
+    "status": "matched"
+  },
+  "INV-00010": {
+    "expected_bank_transaction": "UTR-00010",
+    "expected_settlement": "SET-00010",
+    "status": "matched"
+  },
+  "INV-00011": {
+    "expected_bank_transaction": "UTR-00011",
+    "expected_settlement": "SET-00011",
+    "status": "matched"
+  },
+  "INV-00012": {
+    "expected_bank_transaction": "UTR-00012",
+    "expected_settlement": "SET-00012",
+    "status": "matched"
+  },
+  "INV-00013": {
+    "expected_bank_transaction": "UTR-00013",
+    "expected_settlement": "SET-00013",
+    "status": "matched"
+  },
+  "INV-00014": {
+    "expected_bank_transaction": "UTR-00014",
+    "expected_settlement": "SET-00014",
+    "status": "matched"
+  },
+  "INV-00015": {
+    "expected_bank_transaction": "UTR-00015",
+    "expected_settlement": "SET-00015",
+    "status": "matched"
+  },
+  "INV-00016": {
+    "expected_bank_transaction": "UTR-00016",
+    "expected_settlement": "SET-00016",
+    "status": "matched"
+  },
+  "INV-00017": {
+    "expected_bank_transaction": "UTR-00017",
+    "expected_settlement": "SET-00017",
+    "status": "matched"
+  },
+  "INV-00018": {
+    "expected_bank_transaction": "UTR-00018",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00019": {
+    "expected_bank_transaction": "UTR-00019",
+    "expected_settlement": "SET-00019",
+    "status": "matched"
+  },
+  "INV-00020": {
+    "expected_bank_transaction": "UTR-00020",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00021": {
+    "expected_bank_transaction": "UTR-00021",
+    "expected_settlement": "SET-00021",
+    "status": "matched"
+  },
+  "INV-00022": {
+    "expected_bank_transaction": "UTR-00022",
+    "expected_settlement": "SET-00022",
+    "status": "matched"
+  },
+  "INV-00023": {
+    "expected_bank_transaction": "UTR-00023",
+    "expected_settlement": "SET-00023",
+    "status": "matched"
+  },
+  "INV-00024": {
+    "expected_bank_transaction": "UTR-00024",
+    "expected_settlement": "SET-00024",
+    "status": "matched"
+  },
+  "INV-00025": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00026": {
+    "expected_bank_transaction": "UTR-00026",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00027": {
+    "expected_bank_transaction": "UTR-00027",
+    "expected_settlement": "SET-00027",
+    "status": "matched"
+  },
+  "INV-00028": {
+    "expected_bank_transaction": "UTR-00028",
+    "expected_settlement": "SET-00028",
+    "status": "matched"
+  },
+  "INV-00029": {
+    "expected_bank_transaction": "UTR-00029",
+    "expected_settlement": "SET-00029",
+    "status": "matched"
+  },
+  "INV-00030": {
+    "expected_bank_transaction": "UTR-00030",
+    "expected_settlement": "SET-00030",
+    "status": "matched"
+  },
+  "INV-00031": {
+    "expected_bank_transaction": "UTR-00031",
+    "expected_settlement": "SET-00031",
+    "status": "matched"
+  },
+  "INV-00032": {
+    "expected_bank_transaction": "UTR-00032",
+    "expected_settlement": "SET-00032",
+    "status": "matched"
+  },
+  "INV-00033": {
+    "expected_bank_transaction": "UTR-00033",
+    "expected_settlement": "SET-00033",
+    "status": "matched"
+  },
+  "INV-00034": {
+    "expected_bank_transaction": "UTR-00034",
+    "expected_settlement": "SET-00034",
+    "status": "matched"
+  },
+  "INV-00035": {
+    "expected_bank_transaction": "UTR-00035",
+    "expected_settlement": "SET-00035",
+    "status": "matched"
+  },
+  "INV-00036": {
+    "expected_bank_transaction": "UTR-00036",
+    "expected_settlement": "SET-00036",
+    "status": "matched"
+  },
+  "INV-00037": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00037",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00038": {
+    "expected_bank_transaction": "UTR-00038",
+    "expected_settlement": "SET-00038",
+    "status": "matched"
+  },
+  "INV-00039": {
+    "expected_bank_transaction": "UTR-00039",
+    "expected_settlement": "SET-00039",
+    "status": "matched"
+  },
+  "INV-00040": {
+    "expected_bank_transaction": "UTR-00040",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00041": {
+    "expected_bank_transaction": "UTR-00041",
+    "expected_settlement": "SET-00041",
+    "status": "matched"
+  },
+  "INV-00042": {
+    "expected_bank_transaction": "UTR-00042",
+    "expected_settlement": "SET-00042",
+    "status": "matched"
+  },
+  "INV-00043": {
+    "expected_bank_transaction": "UTR-00043",
+    "expected_settlement": "SET-00043",
+    "status": "matched"
+  },
+  "INV-00044": {
+    "expected_bank_transaction": "UTR-00044",
+    "expected_settlement": "SET-00044",
+    "status": "matched"
+  },
+  "INV-00045": {
+    "expected_bank_transaction": "UTR-00045",
+    "expected_settlement": "SET-00045",
+    "status": "matched"
+  },
+  "INV-00046": {
+    "expected_bank_transaction": "UTR-00046",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00047": {
+    "expected_bank_transaction": "UTR-00047",
+    "expected_settlement": "SET-00047",
+    "status": "matched"
+  },
+  "INV-00048": {
+    "expected_bank_transaction": "UTR-00048",
+    "expected_settlement": "SET-00048",
+    "status": "matched"
+  },
+  "INV-00049": {
+    "expected_bank_transaction": "UTR-00049",
+    "expected_settlement": "SET-00049",
+    "status": "matched"
+  },
+  "INV-00050": {
+    "expected_bank_transaction": "UTR-00050",
+    "expected_settlement": "SET-00050",
+    "status": "matched"
+  },
+  "INV-00051": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "ambiguous"
+  },
+  "INV-00052": {
+    "expected_bank_transaction": "UTR-00052",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00053": {
+    "expected_bank_transaction": "UTR-00053",
+    "expected_settlement": "SET-00053",
+    "status": "matched"
+  },
+  "INV-00054": {
+    "expected_bank_transaction": "UTR-00054",
+    "expected_settlement": "SET-00054",
+    "status": "matched"
+  },
+  "INV-00055": {
+    "expected_bank_transaction": "UTR-00055",
+    "expected_settlement": "SET-00055",
+    "status": "matched"
+  },
+  "INV-00056": {
+    "expected_bank_transaction": "UTR-00056",
+    "expected_settlement": "SET-00056",
+    "status": "matched"
+  },
+  "INV-00057": {
+    "expected_bank_transaction": "UTR-00057",
+    "expected_settlement": "SET-00057",
+    "status": "matched"
+  },
+  "INV-00058": {
+    "expected_bank_transaction": "UTR-00058",
+    "expected_settlement": "SET-00058",
+    "status": "matched"
+  },
+  "INV-00059": {
+    "expected_bank_transaction": "UTR-00059",
+    "expected_settlement": "SET-00059",
+    "status": "matched"
+  },
+  "INV-00060": {
+    "expected_bank_transaction": "UTR-00060",
+    "expected_settlement": "SET-00060",
+    "status": "matched"
+  },
+  "INV-00061": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00062": {
+    "expected_bank_transaction": "UTR-00062",
+    "expected_settlement": "SET-00062",
+    "status": "matched"
+  },
+  "INV-00063": {
+    "expected_bank_transaction": "UTR-00063",
+    "expected_settlement": "SET-00063",
+    "status": "matched"
+  },
+  "INV-00064": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00065": {
+    "expected_bank_transaction": "UTR-00065",
+    "expected_settlement": "SET-00065",
+    "status": "matched"
+  },
+  "INV-00066": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00067": {
+    "expected_bank_transaction": "UTR-00067",
+    "expected_settlement": "SET-00067",
+    "status": "matched"
+  },
+  "INV-00068": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00069": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00069",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00070": {
+    "expected_bank_transaction": "UTR-00070",
+    "expected_settlement": "SET-00070",
+    "status": "matched"
+  },
+  "INV-00071": {
+    "expected_bank_transaction": "UTR-00071",
+    "expected_settlement": "SET-00071",
+    "status": "matched"
+  },
+  "INV-00072": {
+    "expected_bank_transaction": "UTR-00072",
+    "expected_settlement": "SET-00072",
+    "status": "matched"
+  },
+  "INV-00073": {
+    "expected_bank_transaction": "UTR-00073",
+    "expected_settlement": "SET-00073",
+    "status": "matched"
+  },
+  "INV-00074": {
+    "expected_bank_transaction": "UTR-00074",
+    "expected_settlement": "SET-00074",
+    "status": "matched"
+  },
+  "INV-00075": {
+    "expected_bank_transaction": "UTR-00075",
+    "expected_settlement": "SET-00075",
+    "status": "matched"
+  },
+  "INV-00076": {
+    "expected_bank_transaction": "UTR-00076",
+    "expected_settlement": "SET-00076",
+    "status": "matched"
+  },
+  "INV-00077": {
+    "expected_bank_transaction": "UTR-00077",
+    "expected_settlement": "SET-00077",
+    "status": "matched"
+  },
+  "INV-00078": {
+    "expected_bank_transaction": "UTR-00078",
+    "expected_settlement": "SET-00078",
+    "status": "matched"
+  },
+  "INV-00079": {
+    "expected_bank_transaction": "UTR-00079",
+    "expected_settlement": "SET-00079",
+    "status": "matched"
+  },
+  "INV-00080": {
+    "expected_bank_transaction": "UTR-00080",
+    "expected_settlement": "SET-00080",
+    "status": "matched"
+  },
+  "INV-00081": {
+    "expected_bank_transaction": "UTR-00081",
+    "expected_settlement": "SET-00081",
+    "status": "matched"
+  },
+  "INV-00082": {
+    "expected_bank_transaction": "UTR-00082",
+    "expected_settlement": "SET-00082",
+    "status": "matched"
+  },
+  "INV-00083": {
+    "expected_bank_transaction": "UTR-00083",
+    "expected_settlement": "SET-00083",
+    "status": "matched"
+  },
+  "INV-00084": {
+    "expected_bank_transaction": "UTR-00084",
+    "expected_settlement": "SET-00084",
+    "status": "matched"
+  },
+  "INV-00085": {
+    "expected_bank_transaction": "UTR-00085",
+    "expected_settlement": "SET-00085",
+    "status": "matched"
+  },
+  "INV-00086": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "ambiguous"
+  },
+  "INV-00087": {
+    "expected_bank_transaction": "UTR-00087",
+    "expected_settlement": "SET-00087",
+    "status": "matched"
+  },
+  "INV-00088": {
+    "expected_bank_transaction": "UTR-00088",
+    "expected_settlement": "SET-00088",
+    "status": "matched"
+  },
+  "INV-00089": {
+    "expected_bank_transaction": "UTR-00089",
+    "expected_settlement": "SET-00089",
+    "status": "matched"
+  },
+  "INV-00090": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00090",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00091": {
+    "expected_bank_transaction": "UTR-00091",
+    "expected_settlement": "SET-00091",
+    "status": "matched"
+  },
+  "INV-00092": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00093": {
+    "expected_bank_transaction": "UTR-00093",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00094": {
+    "expected_bank_transaction": "UTR-00094",
+    "expected_settlement": "SET-00094",
+    "status": "matched"
+  },
+  "INV-00095": {
+    "expected_bank_transaction": "UTR-00095",
+    "expected_settlement": "SET-00095",
+    "status": "matched"
+  },
+  "INV-00096": {
+    "expected_bank_transaction": "UTR-00096",
+    "expected_settlement": "SET-00096",
+    "status": "matched"
+  },
+  "INV-00097": {
+    "expected_bank_transaction": "UTR-00097",
+    "expected_settlement": "SET-00097",
+    "status": "matched"
+  },
+  "INV-00098": {
+    "expected_bank_transaction": "UTR-00098",
+    "expected_settlement": "SET-00098",
+    "status": "matched"
+  },
+  "INV-00099": {
+    "expected_bank_transaction": "UTR-00099",
+    "expected_settlement": "SET-00099",
+    "status": "matched"
+  },
+  "INV-00100": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00100",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00101": {
+    "expected_bank_transaction": "UTR-00101",
+    "expected_settlement": "SET-00101",
+    "status": "matched"
+  },
+  "INV-00102": {
+    "expected_bank_transaction": "UTR-00102",
+    "expected_settlement": "SET-00102",
+    "status": "matched"
+  },
+  "INV-00103": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00104": {
+    "expected_bank_transaction": "UTR-00104",
+    "expected_settlement": "SET-00104",
+    "status": "matched"
+  },
+  "INV-00105": {
+    "expected_bank_transaction": "UTR-00105",
+    "expected_settlement": "SET-00105",
+    "status": "matched"
+  },
+  "INV-00106": {
+    "expected_bank_transaction": "UTR-00106",
+    "expected_settlement": "SET-00106",
+    "status": "matched"
+  },
+  "INV-00107": {
+    "expected_bank_transaction": "UTR-00107",
+    "expected_settlement": "SET-00107",
+    "status": "matched"
+  },
+  "INV-00108": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00108",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00109": {
+    "expected_bank_transaction": "UTR-00109",
+    "expected_settlement": "SET-00109",
+    "status": "matched"
+  },
+  "INV-00110": {
+    "expected_bank_transaction": "UTR-00110",
+    "expected_settlement": "SET-00110",
+    "status": "matched"
+  },
+  "INV-00111": {
+    "expected_bank_transaction": "UTR-00111",
+    "expected_settlement": "SET-00111",
+    "status": "matched"
+  },
+  "INV-00112": {
+    "expected_bank_transaction": "UTR-00112",
+    "expected_settlement": "SET-00112",
+    "status": "matched"
+  },
+  "INV-00113": {
+    "expected_bank_transaction": "UTR-00113",
+    "expected_settlement": "SET-00113",
+    "status": "matched"
+  },
+  "INV-00114": {
+    "expected_bank_transaction": "UTR-00114",
+    "expected_settlement": "SET-00114",
+    "status": "matched"
+  },
+  "INV-00115": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00115",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00116": {
+    "expected_bank_transaction": "UTR-00116",
+    "expected_settlement": "SET-00116",
+    "status": "matched"
+  },
+  "INV-00117": {
+    "expected_bank_transaction": "UTR-00117",
+    "expected_settlement": "SET-00117",
+    "status": "matched"
+  },
+  "INV-00118": {
+    "expected_bank_transaction": "UTR-00118",
+    "expected_settlement": "SET-00118",
+    "status": "matched"
+  },
+  "INV-00119": {
+    "expected_bank_transaction": "UTR-00119",
+    "expected_settlement": "SET-00119",
+    "status": "matched"
+  },
+  "INV-00120": {
+    "expected_bank_transaction": "UTR-00120",
+    "expected_settlement": "SET-00120",
+    "status": "matched"
+  },
+  "INV-00121": {
+    "expected_bank_transaction": "UTR-00121",
+    "expected_settlement": "SET-00121",
+    "status": "matched"
+  },
+  "INV-00122": {
+    "expected_bank_transaction": "UTR-00122",
+    "expected_settlement": "SET-00122",
+    "status": "matched"
+  },
+  "INV-00123": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00124": {
+    "expected_bank_transaction": "UTR-00124",
+    "expected_settlement": "SET-00124",
+    "status": "matched"
+  },
+  "INV-00125": {
+    "expected_bank_transaction": "UTR-00125",
+    "expected_settlement": "SET-00125",
+    "status": "matched"
+  },
+  "INV-00126": {
+    "expected_bank_transaction": "UTR-00126",
+    "expected_settlement": "SET-00126",
+    "status": "matched"
+  },
+  "INV-00127": {
+    "expected_bank_transaction": "UTR-00127",
+    "expected_settlement": "SET-00127",
+    "status": "matched"
+  },
+  "INV-00128": {
+    "expected_bank_transaction": "UTR-00128",
+    "expected_settlement": "SET-00128",
+    "status": "matched"
+  },
+  "INV-00129": {
+    "expected_bank_transaction": "UTR-00129",
+    "expected_settlement": "SET-00129",
+    "status": "matched"
+  },
+  "INV-00130": {
+    "expected_bank_transaction": "UTR-00130",
+    "expected_settlement": "SET-00130",
+    "status": "matched"
+  },
+  "INV-00131": {
+    "expected_bank_transaction": "UTR-00131",
+    "expected_settlement": "SET-00131",
+    "status": "matched"
+  },
+  "INV-00132": {
+    "expected_bank_transaction": "UTR-00132",
+    "expected_settlement": "SET-00132",
+    "status": "matched"
+  },
+  "INV-00133": {
+    "expected_bank_transaction": "UTR-00133",
+    "expected_settlement": "SET-00133",
+    "status": "matched"
+  },
+  "INV-00134": {
+    "expected_bank_transaction": "UTR-00134",
+    "expected_settlement": "SET-00134",
+    "status": "matched"
+  },
+  "INV-00135": {
+    "expected_bank_transaction": "UTR-00135",
+    "expected_settlement": "SET-00135",
+    "status": "matched"
+  },
+  "INV-00136": {
+    "expected_bank_transaction": "UTR-00136",
+    "expected_settlement": "SET-00136",
+    "status": "matched"
+  },
+  "INV-00137": {
+    "expected_bank_transaction": "UTR-00137",
+    "expected_settlement": "SET-00137",
+    "status": "matched"
+  },
+  "INV-00138": {
+    "expected_bank_transaction": "UTR-00138",
+    "expected_settlement": "SET-00138",
+    "status": "matched"
+  },
+  "INV-00139": {
+    "expected_bank_transaction": "UTR-00139",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00140": {
+    "expected_bank_transaction": "UTR-00140",
+    "expected_settlement": "SET-00140",
+    "status": "matched"
+  },
+  "INV-00141": {
+    "expected_bank_transaction": "UTR-00141",
+    "expected_settlement": "SET-00141",
+    "status": "matched"
+  },
+  "INV-00142": {
+    "expected_bank_transaction": "UTR-00142",
+    "expected_settlement": "SET-00142",
+    "status": "matched"
+  },
+  "INV-00143": {
+    "expected_bank_transaction": "UTR-00143",
+    "expected_settlement": "SET-00143",
+    "status": "matched"
+  },
+  "INV-00144": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00144",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00145": {
+    "expected_bank_transaction": "UTR-00145",
+    "expected_settlement": "SET-00145",
+    "status": "matched"
+  },
+  "INV-00146": {
+    "expected_bank_transaction": "UTR-00146",
+    "expected_settlement": "SET-00146",
+    "status": "matched"
+  },
+  "INV-00147": {
+    "expected_bank_transaction": "UTR-00147",
+    "expected_settlement": "SET-00147",
+    "status": "matched"
+  },
+  "INV-00148": {
+    "expected_bank_transaction": "UTR-00148",
+    "expected_settlement": "SET-00148",
+    "status": "matched"
+  },
+  "INV-00149": {
+    "expected_bank_transaction": "UTR-00149",
+    "expected_settlement": "SET-00149",
+    "status": "matched"
+  },
+  "INV-00150": {
+    "expected_bank_transaction": "UTR-00150",
+    "expected_settlement": "SET-00150",
+    "status": "matched"
+  },
+  "INV-00151": {
+    "expected_bank_transaction": "UTR-00151",
+    "expected_settlement": "SET-00151",
+    "status": "matched"
+  },
+  "INV-00152": {
+    "expected_bank_transaction": "UTR-00152",
+    "expected_settlement": "SET-00152",
+    "status": "matched"
+  },
+  "INV-00153": {
+    "expected_bank_transaction": "UTR-00153",
+    "expected_settlement": "SET-00153",
+    "status": "matched"
+  },
+  "INV-00154": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00154",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00155": {
+    "expected_bank_transaction": "UTR-00155",
+    "expected_settlement": "SET-00155",
+    "status": "matched"
+  },
+  "INV-00156": {
+    "expected_bank_transaction": "UTR-00156",
+    "expected_settlement": "SET-00156",
+    "status": "matched"
+  },
+  "INV-00157": {
+    "expected_bank_transaction": "UTR-00157",
+    "expected_settlement": "SET-00157",
+    "status": "matched"
+  },
+  "INV-00158": {
+    "expected_bank_transaction": "UTR-00158",
+    "expected_settlement": "SET-00158",
+    "status": "matched"
+  },
+  "INV-00159": {
+    "expected_bank_transaction": "UTR-00159",
+    "expected_settlement": "SET-00159",
+    "status": "matched"
+  },
+  "INV-00160": {
+    "expected_bank_transaction": "UTR-00160",
+    "expected_settlement": "SET-00160",
+    "status": "matched"
+  },
+  "INV-00161": {
+    "expected_bank_transaction": "UTR-00161",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00162": {
+    "expected_bank_transaction": "UTR-00162",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00163": {
+    "expected_bank_transaction": "UTR-00163",
+    "expected_settlement": "SET-00163",
+    "status": "matched"
+  },
+  "INV-00164": {
+    "expected_bank_transaction": "UTR-00164",
+    "expected_settlement": "SET-00164",
+    "status": "matched"
+  },
+  "INV-00165": {
+    "expected_bank_transaction": "UTR-00165",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00166": {
+    "expected_bank_transaction": "UTR-00166",
+    "expected_settlement": "SET-00166",
+    "status": "matched"
+  },
+  "INV-00167": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "ambiguous"
+  },
+  "INV-00168": {
+    "expected_bank_transaction": "UTR-00168",
+    "expected_settlement": "SET-00168",
+    "status": "matched"
+  },
+  "INV-00169": {
+    "expected_bank_transaction": "UTR-00169",
+    "expected_settlement": "SET-00169",
+    "status": "matched"
+  },
+  "INV-00170": {
+    "expected_bank_transaction": "UTR-00170",
+    "expected_settlement": "SET-00170",
+    "status": "matched"
+  },
+  "INV-00171": {
+    "expected_bank_transaction": "UTR-00171",
+    "expected_settlement": "SET-00171",
+    "status": "matched"
+  },
+  "INV-00172": {
+    "expected_bank_transaction": "UTR-00172",
+    "expected_settlement": "SET-00172",
+    "status": "matched"
+  },
+  "INV-00173": {
+    "expected_bank_transaction": "UTR-00173",
+    "expected_settlement": "SET-00173",
+    "status": "matched"
+  },
+  "INV-00174": {
+    "expected_bank_transaction": "UTR-00174",
+    "expected_settlement": "SET-00174",
+    "status": "matched"
+  },
+  "INV-00175": {
+    "expected_bank_transaction": "UTR-00175",
+    "expected_settlement": "SET-00175",
+    "status": "matched"
+  },
+  "INV-00176": {
+    "expected_bank_transaction": "UTR-00176",
+    "expected_settlement": "SET-00176",
+    "status": "matched"
+  },
+  "INV-00177": {
+    "expected_bank_transaction": "UTR-00177",
+    "expected_settlement": "SET-00177",
+    "status": "matched"
+  },
+  "INV-00178": {
+    "expected_bank_transaction": "UTR-00178",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00179": {
+    "expected_bank_transaction": "UTR-00179",
+    "expected_settlement": "SET-00179",
+    "status": "matched"
+  },
+  "INV-00180": {
+    "expected_bank_transaction": "UTR-00180",
+    "expected_settlement": "SET-00180",
+    "status": "matched"
+  },
+  "INV-00181": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00182": {
+    "expected_bank_transaction": "UTR-00182",
+    "expected_settlement": "SET-00182",
+    "status": "matched"
+  },
+  "INV-00183": {
+    "expected_bank_transaction": "UTR-00183",
+    "expected_settlement": "SET-00183",
+    "status": "matched"
+  },
+  "INV-00184": {
+    "expected_bank_transaction": "UTR-00184",
+    "expected_settlement": "SET-00184",
+    "status": "matched"
+  },
+  "INV-00185": {
+    "expected_bank_transaction": "UTR-00185",
+    "expected_settlement": "SET-00185",
+    "status": "matched"
+  },
+  "INV-00186": {
+    "expected_bank_transaction": "UTR-00186",
+    "expected_settlement": "SET-00186",
+    "status": "matched"
+  },
+  "INV-00187": {
+    "expected_bank_transaction": "UTR-00187",
+    "expected_settlement": "SET-00187",
+    "status": "matched"
+  },
+  "INV-00188": {
+    "expected_bank_transaction": "UTR-00188",
+    "expected_settlement": "SET-00188",
+    "status": "matched"
+  },
+  "INV-00189": {
+    "expected_bank_transaction": "UTR-00189",
+    "expected_settlement": "SET-00189",
+    "status": "matched"
+  },
+  "INV-00190": {
+    "expected_bank_transaction": "UTR-00190",
+    "expected_settlement": "SET-00190",
+    "status": "matched"
+  },
+  "INV-00191": {
+    "expected_bank_transaction": "UTR-00191",
+    "expected_settlement": "SET-00191",
+    "status": "matched"
+  },
+  "INV-00192": {
+    "expected_bank_transaction": "UTR-00192",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00193": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00193",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00194": {
+    "expected_bank_transaction": "UTR-00194",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00195": {
+    "expected_bank_transaction": "UTR-00195",
+    "expected_settlement": "SET-00195",
+    "status": "matched"
+  },
+  "INV-00196": {
+    "expected_bank_transaction": "UTR-00196",
+    "expected_settlement": "SET-00196",
+    "status": "matched"
+  },
+  "INV-00197": {
+    "expected_bank_transaction": "UTR-00197",
+    "expected_settlement": "SET-00197",
+    "status": "matched"
+  },
+  "INV-00198": {
+    "expected_bank_transaction": "UTR-00198",
+    "expected_settlement": "SET-00198",
+    "status": "matched"
+  },
+  "INV-00199": {
+    "expected_bank_transaction": "UTR-00199",
+    "expected_settlement": "SET-00199",
+    "status": "matched"
+  },
+  "INV-00200": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00201": {
+    "expected_bank_transaction": "UTR-00201",
+    "expected_settlement": "SET-00201",
+    "status": "matched"
+  },
+  "INV-00202": {
+    "expected_bank_transaction": "UTR-00202",
+    "expected_settlement": "SET-00202",
+    "status": "matched"
+  },
+  "INV-00203": {
+    "expected_bank_transaction": "UTR-00203",
+    "expected_settlement": "SET-00203",
+    "status": "matched"
+  },
+  "INV-00204": {
+    "expected_bank_transaction": "UTR-00204",
+    "expected_settlement": "SET-00204",
+    "status": "matched"
+  },
+  "INV-00205": {
+    "expected_bank_transaction": "UTR-00205",
+    "expected_settlement": "SET-00205",
+    "status": "matched"
+  },
+  "INV-00206": {
+    "expected_bank_transaction": "UTR-00206",
+    "expected_settlement": "SET-00206",
+    "status": "matched"
+  },
+  "INV-00207": {
+    "expected_bank_transaction": "UTR-00207",
+    "expected_settlement": "SET-00207",
+    "status": "matched"
+  },
+  "INV-00208": {
+    "expected_bank_transaction": "UTR-00208",
+    "expected_settlement": "SET-00208",
+    "status": "matched"
+  },
+  "INV-00209": {
+    "expected_bank_transaction": "UTR-00209",
+    "expected_settlement": "SET-00209",
+    "status": "matched"
+  },
+  "INV-00210": {
+    "expected_bank_transaction": "UTR-00210",
+    "expected_settlement": "SET-00210",
+    "status": "matched"
+  },
+  "INV-00211": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "ambiguous"
+  },
+  "INV-00212": {
+    "expected_bank_transaction": "UTR-00212",
+    "expected_settlement": "SET-00212",
+    "status": "matched"
+  },
+  "INV-00213": {
+    "expected_bank_transaction": "UTR-00213",
+    "expected_settlement": "SET-00213",
+    "status": "matched"
+  },
+  "INV-00214": {
+    "expected_bank_transaction": "UTR-00214",
+    "expected_settlement": "SET-00214",
+    "status": "matched"
+  },
+  "INV-00215": {
+    "expected_bank_transaction": "UTR-00215",
+    "expected_settlement": "SET-00215",
+    "status": "matched"
+  },
+  "INV-00216": {
+    "expected_bank_transaction": "UTR-00216",
+    "expected_settlement": "SET-00216",
+    "status": "matched"
+  },
+  "INV-00217": {
+    "expected_bank_transaction": "UTR-00217",
+    "expected_settlement": "SET-00217",
+    "status": "matched"
+  },
+  "INV-00218": {
+    "expected_bank_transaction": "UTR-00218",
+    "expected_settlement": "SET-00218",
+    "status": "matched"
+  },
+  "INV-00219": {
+    "expected_bank_transaction": "UTR-00219",
+    "expected_settlement": "SET-00219",
+    "status": "matched"
+  },
+  "INV-00220": {
+    "expected_bank_transaction": "UTR-00220",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00221": {
+    "expected_bank_transaction": "UTR-00221",
+    "expected_settlement": "SET-00221",
+    "status": "matched"
+  },
+  "INV-00222": {
+    "expected_bank_transaction": "UTR-00222",
+    "expected_settlement": "SET-00222",
+    "status": "matched"
+  },
+  "INV-00223": {
+    "expected_bank_transaction": "UTR-00223",
+    "expected_settlement": "SET-00223",
+    "status": "matched"
+  },
+  "INV-00224": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00224",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00225": {
+    "expected_bank_transaction": "UTR-00225",
+    "expected_settlement": "SET-00225",
+    "status": "matched"
+  },
+  "INV-00226": {
+    "expected_bank_transaction": "UTR-00226",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00227": {
+    "expected_bank_transaction": "UTR-00227",
+    "expected_settlement": "SET-00227",
+    "status": "matched"
+  },
+  "INV-00228": {
+    "expected_bank_transaction": "UTR-00228",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00229": {
+    "expected_bank_transaction": "UTR-00229",
+    "expected_settlement": "SET-00229",
+    "status": "matched"
+  },
+  "INV-00230": {
+    "expected_bank_transaction": "UTR-00230",
+    "expected_settlement": "SET-00230",
+    "status": "matched"
+  },
+  "INV-00231": {
+    "expected_bank_transaction": "UTR-00231",
+    "expected_settlement": "SET-00231",
+    "status": "matched"
+  },
+  "INV-00232": {
+    "expected_bank_transaction": "UTR-00232",
+    "expected_settlement": "SET-00232",
+    "status": "matched"
+  },
+  "INV-00233": {
+    "expected_bank_transaction": "UTR-00233",
+    "expected_settlement": "SET-00233",
+    "status": "matched"
+  },
+  "INV-00234": {
+    "expected_bank_transaction": "UTR-00234",
+    "expected_settlement": "SET-00234",
+    "status": "matched"
+  },
+  "INV-00235": {
+    "expected_bank_transaction": "UTR-00235",
+    "expected_settlement": "SET-00235",
+    "status": "matched"
+  },
+  "INV-00236": {
+    "expected_bank_transaction": "UTR-00236",
+    "expected_settlement": "SET-00236",
+    "status": "matched"
+  },
+  "INV-00237": {
+    "expected_bank_transaction": "UTR-00237",
+    "expected_settlement": "SET-00237",
+    "status": "matched"
+  },
+  "INV-00238": {
+    "expected_bank_transaction": "UTR-00238",
+    "expected_settlement": "SET-00238",
+    "status": "matched"
+  },
+  "INV-00239": {
+    "expected_bank_transaction": "UTR-00239",
+    "expected_settlement": "SET-00239",
+    "status": "matched"
+  },
+  "INV-00240": {
+    "expected_bank_transaction": "UTR-00240",
+    "expected_settlement": "SET-00240",
+    "status": "matched"
+  },
+  "INV-00241": {
+    "expected_bank_transaction": "UTR-00241",
+    "expected_settlement": "SET-00241",
+    "status": "matched"
+  },
+  "INV-00242": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00242",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00243": {
+    "expected_bank_transaction": "UTR-00243",
+    "expected_settlement": "SET-00243",
+    "status": "matched"
+  },
+  "INV-00244": {
+    "expected_bank_transaction": "UTR-00244",
+    "expected_settlement": "SET-00244",
+    "status": "matched"
+  },
+  "INV-00245": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00245",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00246": {
+    "expected_bank_transaction": "UTR-00246",
+    "expected_settlement": "SET-00246",
+    "status": "matched"
+  },
+  "INV-00247": {
+    "expected_bank_transaction": "UTR-00247",
+    "expected_settlement": "SET-00247",
+    "status": "matched"
+  },
+  "INV-00248": {
+    "expected_bank_transaction": "UTR-00248",
+    "expected_settlement": "SET-00248",
+    "status": "matched"
+  },
+  "INV-00249": {
+    "expected_bank_transaction": "UTR-00249",
+    "expected_settlement": "SET-00249",
+    "status": "matched"
+  },
+  "INV-00250": {
+    "expected_bank_transaction": "UTR-00250",
+    "expected_settlement": "SET-00250",
+    "status": "matched"
+  },
+  "INV-00251": {
+    "expected_bank_transaction": "UTR-00251",
+    "expected_settlement": "SET-00251",
+    "status": "matched"
+  },
+  "INV-00252": {
+    "expected_bank_transaction": "UTR-00252",
+    "expected_settlement": "SET-00252",
+    "status": "matched"
+  },
+  "INV-00253": {
+    "expected_bank_transaction": "UTR-00253",
+    "expected_settlement": "SET-00253",
+    "status": "matched"
+  },
+  "INV-00254": {
+    "expected_bank_transaction": "UTR-00254",
+    "expected_settlement": "SET-00254",
+    "status": "matched"
+  },
+  "INV-00255": {
+    "expected_bank_transaction": "UTR-00255",
+    "expected_settlement": "SET-00255",
+    "status": "matched"
+  },
+  "INV-00256": {
+    "expected_bank_transaction": "UTR-00256",
+    "expected_settlement": "SET-00256",
+    "status": "matched"
+  },
+  "INV-00257": {
+    "expected_bank_transaction": "UTR-00257",
+    "expected_settlement": "SET-00257",
+    "status": "matched"
+  },
+  "INV-00258": {
+    "expected_bank_transaction": "UTR-00258",
+    "expected_settlement": "SET-00258",
+    "status": "matched"
+  },
+  "INV-00259": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "ambiguous"
+  },
+  "INV-00260": {
+    "expected_bank_transaction": "UTR-00260",
+    "expected_settlement": "SET-00260",
+    "status": "matched"
+  },
+  "INV-00261": {
+    "expected_bank_transaction": "UTR-00261",
+    "expected_settlement": "SET-00261",
+    "status": "matched"
+  },
+  "INV-00262": {
+    "expected_bank_transaction": "UTR-00262",
+    "expected_settlement": "SET-00262",
+    "status": "matched"
+  },
+  "INV-00263": {
+    "expected_bank_transaction": "UTR-00263",
+    "expected_settlement": "SET-00263",
+    "status": "matched"
+  },
+  "INV-00264": {
+    "expected_bank_transaction": "UTR-00264",
+    "expected_settlement": "SET-00264",
+    "status": "matched"
+  },
+  "INV-00265": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00266": {
+    "expected_bank_transaction": "UTR-00266",
+    "expected_settlement": "SET-00266",
+    "status": "matched"
+  },
+  "INV-00267": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00267",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00268": {
+    "expected_bank_transaction": "UTR-00268",
+    "expected_settlement": "SET-00268",
+    "status": "matched"
+  },
+  "INV-00269": {
+    "expected_bank_transaction": "UTR-00269",
+    "expected_settlement": "SET-00269",
+    "status": "matched"
+  },
+  "INV-00270": {
+    "expected_bank_transaction": "UTR-00270",
+    "expected_settlement": "SET-00270",
+    "status": "matched"
+  },
+  "INV-00271": {
+    "expected_bank_transaction": "UTR-00271",
+    "expected_settlement": "SET-00271",
+    "status": "matched"
+  },
+  "INV-00272": {
+    "expected_bank_transaction": "UTR-00272",
+    "expected_settlement": "SET-00272",
+    "status": "matched"
+  },
+  "INV-00273": {
+    "expected_bank_transaction": "UTR-00273",
+    "expected_settlement": "SET-00273",
+    "status": "matched"
+  },
+  "INV-00274": {
+    "expected_bank_transaction": "UTR-00274",
+    "expected_settlement": "SET-00274",
+    "status": "matched"
+  },
+  "INV-00275": {
+    "expected_bank_transaction": "UTR-00275",
+    "expected_settlement": "SET-00275",
+    "status": "matched"
+  },
+  "INV-00276": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00276",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00277": {
+    "expected_bank_transaction": "UTR-00277",
+    "expected_settlement": "SET-00277",
+    "status": "matched"
+  },
+  "INV-00278": {
+    "expected_bank_transaction": "UTR-00278",
+    "expected_settlement": "SET-00278",
+    "status": "matched"
+  },
+  "INV-00279": {
+    "expected_bank_transaction": "UTR-00279",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00280": {
+    "expected_bank_transaction": "UTR-00280",
+    "expected_settlement": "SET-00280",
+    "status": "matched"
+  },
+  "INV-00281": {
+    "expected_bank_transaction": "UTR-00281",
+    "expected_settlement": "SET-00281",
+    "status": "matched"
+  },
+  "INV-00282": {
+    "expected_bank_transaction": "UTR-00282",
+    "expected_settlement": "SET-00282",
+    "status": "matched"
+  },
+  "INV-00283": {
+    "expected_bank_transaction": "UTR-00283",
+    "expected_settlement": "SET-00283",
+    "status": "matched"
+  },
+  "INV-00284": {
+    "expected_bank_transaction": "UTR-00284",
+    "expected_settlement": "SET-00284",
+    "status": "matched"
+  },
+  "INV-00285": {
+    "expected_bank_transaction": "UTR-00285",
+    "expected_settlement": "SET-00285",
+    "status": "matched"
+  },
+  "INV-00286": {
+    "expected_bank_transaction": "UTR-00286",
+    "expected_settlement": "SET-00286",
+    "status": "matched"
+  },
+  "INV-00287": {
+    "expected_bank_transaction": "UTR-00287",
+    "expected_settlement": "SET-00287",
+    "status": "matched"
+  },
+  "INV-00288": {
+    "expected_bank_transaction": "UTR-00288",
+    "expected_settlement": "SET-00288",
+    "status": "matched"
+  },
+  "INV-00289": {
+    "expected_bank_transaction": "UTR-00289",
+    "expected_settlement": "SET-00289",
+    "status": "matched"
+  },
+  "INV-00290": {
+    "expected_bank_transaction": "UTR-00290",
+    "expected_settlement": "SET-00290",
+    "status": "matched"
+  },
+  "INV-00291": {
+    "expected_bank_transaction": "UTR-00291",
+    "expected_settlement": "SET-00291",
+    "status": "matched"
+  },
+  "INV-00292": {
+    "expected_bank_transaction": "UTR-00292",
+    "expected_settlement": "SET-00292",
+    "status": "matched"
+  },
+  "INV-00293": {
+    "expected_bank_transaction": "UTR-00293",
+    "expected_settlement": "SET-00293",
+    "status": "matched"
+  },
+  "INV-00294": {
+    "expected_bank_transaction": "UTR-00294",
+    "expected_settlement": "SET-00294",
+    "status": "matched"
+  },
+  "INV-00295": {
+    "expected_bank_transaction": "UTR-00295",
+    "expected_settlement": "SET-00295",
+    "status": "matched"
+  },
+  "INV-00296": {
+    "expected_bank_transaction": "UTR-00296",
+    "expected_settlement": "SET-00296",
+    "status": "matched"
+  },
+  "INV-00297": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00298": {
+    "expected_bank_transaction": "UTR-00298",
+    "expected_settlement": "SET-00298",
+    "status": "matched"
+  },
+  "INV-00299": {
+    "expected_bank_transaction": "UTR-00299",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00300": {
+    "expected_bank_transaction": "UTR-00300",
+    "expected_settlement": "SET-00300",
+    "status": "matched"
+  },
+  "INV-00301": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00302": {
+    "expected_bank_transaction": "UTR-00302",
+    "expected_settlement": "SET-00302",
+    "status": "matched"
+  },
+  "INV-00303": {
+    "expected_bank_transaction": "UTR-00303",
+    "expected_settlement": "SET-00303",
+    "status": "matched"
+  },
+  "INV-00304": {
+    "expected_bank_transaction": "UTR-00304",
+    "expected_settlement": "SET-00304",
+    "status": "matched"
+  },
+  "INV-00305": {
+    "expected_bank_transaction": "UTR-00305",
+    "expected_settlement": "SET-00305",
+    "status": "matched"
+  },
+  "INV-00306": {
+    "expected_bank_transaction": "UTR-00306",
+    "expected_settlement": "SET-00306",
+    "status": "matched"
+  },
+  "INV-00307": {
+    "expected_bank_transaction": "UTR-00307",
+    "expected_settlement": "SET-00307",
+    "status": "matched"
+  },
+  "INV-00308": {
+    "expected_bank_transaction": "UTR-00308",
+    "expected_settlement": "SET-00308",
+    "status": "matched"
+  },
+  "INV-00309": {
+    "expected_bank_transaction": "UTR-00309",
+    "expected_settlement": "SET-00309",
+    "status": "matched"
+  },
+  "INV-00310": {
+    "expected_bank_transaction": "UTR-00310",
+    "expected_settlement": "SET-00310",
+    "status": "matched"
+  },
+  "INV-00311": {
+    "expected_bank_transaction": "UTR-00311",
+    "expected_settlement": "SET-00311",
+    "status": "matched"
+  },
+  "INV-00312": {
+    "expected_bank_transaction": "UTR-00312",
+    "expected_settlement": "SET-00312",
+    "status": "matched"
+  },
+  "INV-00313": {
+    "expected_bank_transaction": "UTR-00313",
+    "expected_settlement": "SET-00313",
+    "status": "matched"
+  },
+  "INV-00314": {
+    "expected_bank_transaction": "UTR-00314",
+    "expected_settlement": "SET-00314",
+    "status": "matched"
+  },
+  "INV-00315": {
+    "expected_bank_transaction": "UTR-00315",
+    "expected_settlement": "SET-00315",
+    "status": "matched"
+  },
+  "INV-00316": {
+    "expected_bank_transaction": "UTR-00316",
+    "expected_settlement": "SET-00316",
+    "status": "matched"
+  },
+  "INV-00317": {
+    "expected_bank_transaction": "UTR-00317",
+    "expected_settlement": "SET-00317",
+    "status": "matched"
+  },
+  "INV-00318": {
+    "expected_bank_transaction": "UTR-00318",
+    "expected_settlement": "SET-00318",
+    "status": "matched"
+  },
+  "INV-00319": {
+    "expected_bank_transaction": "UTR-00319",
+    "expected_settlement": "SET-00319",
+    "status": "matched"
+  },
+  "INV-00320": {
+    "expected_bank_transaction": "UTR-00320",
+    "expected_settlement": "SET-00320",
+    "status": "matched"
+  },
+  "INV-00321": {
+    "expected_bank_transaction": "UTR-00321",
+    "expected_settlement": "SET-00321",
+    "status": "matched"
+  },
+  "INV-00322": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00322",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00323": {
+    "expected_bank_transaction": "UTR-00323",
+    "expected_settlement": "SET-00323",
+    "status": "matched"
+  },
+  "INV-00324": {
+    "expected_bank_transaction": "UTR-00324",
+    "expected_settlement": "SET-00324",
+    "status": "matched"
+  },
+  "INV-00325": {
+    "expected_bank_transaction": "UTR-00325",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00326": {
+    "expected_bank_transaction": "UTR-00326",
+    "expected_settlement": "SET-00326",
+    "status": "matched"
+  },
+  "INV-00327": {
+    "expected_bank_transaction": "UTR-00327",
+    "expected_settlement": "SET-00327",
+    "status": "matched"
+  },
+  "INV-00328": {
+    "expected_bank_transaction": "UTR-00328",
+    "expected_settlement": "SET-00328",
+    "status": "matched"
+  },
+  "INV-00329": {
+    "expected_bank_transaction": "UTR-00329",
+    "expected_settlement": "SET-00329",
+    "status": "matched"
+  },
+  "INV-00330": {
+    "expected_bank_transaction": "UTR-00330",
+    "expected_settlement": "SET-00330",
+    "status": "matched"
+  },
+  "INV-00331": {
+    "expected_bank_transaction": "UTR-00331",
+    "expected_settlement": "SET-00331",
+    "status": "matched"
+  },
+  "INV-00332": {
+    "expected_bank_transaction": "UTR-00332",
+    "expected_settlement": "SET-00332",
+    "status": "matched"
+  },
+  "INV-00333": {
+    "expected_bank_transaction": "UTR-00333",
+    "expected_settlement": "SET-00333",
+    "status": "matched"
+  },
+  "INV-00334": {
+    "expected_bank_transaction": "UTR-00334",
+    "expected_settlement": "SET-00334",
+    "status": "matched"
+  },
+  "INV-00335": {
+    "expected_bank_transaction": "UTR-00335",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00336": {
+    "expected_bank_transaction": "UTR-00336",
+    "expected_settlement": "SET-00336",
+    "status": "matched"
+  },
+  "INV-00337": {
+    "expected_bank_transaction": "UTR-00337",
+    "expected_settlement": "SET-00337",
+    "status": "matched"
+  },
+  "INV-00338": {
+    "expected_bank_transaction": "UTR-00338",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00339": {
+    "expected_bank_transaction": "UTR-00339",
+    "expected_settlement": "SET-00339",
+    "status": "matched"
+  },
+  "INV-00340": {
+    "expected_bank_transaction": "UTR-00340",
+    "expected_settlement": "SET-00340",
+    "status": "matched"
+  },
+  "INV-00341": {
+    "expected_bank_transaction": "UTR-00341",
+    "expected_settlement": "SET-00341",
+    "status": "matched"
+  },
+  "INV-00342": {
+    "expected_bank_transaction": "UTR-00342",
+    "expected_settlement": "SET-00342",
+    "status": "matched"
+  },
+  "INV-00343": {
+    "expected_bank_transaction": "UTR-00343",
+    "expected_settlement": "SET-00343",
+    "status": "matched"
+  },
+  "INV-00344": {
+    "expected_bank_transaction": "UTR-00344",
+    "expected_settlement": "SET-00344",
+    "status": "matched"
+  },
+  "INV-00345": {
+    "expected_bank_transaction": "UTR-00345",
+    "expected_settlement": "SET-00345",
+    "status": "matched"
+  },
+  "INV-00346": {
+    "expected_bank_transaction": "UTR-00346",
+    "expected_settlement": "SET-00346",
+    "status": "matched"
+  },
+  "INV-00347": {
+    "expected_bank_transaction": "UTR-00347",
+    "expected_settlement": "SET-00347",
+    "status": "matched"
+  },
+  "INV-00348": {
+    "expected_bank_transaction": "UTR-00348",
+    "expected_settlement": "SET-00348",
+    "status": "matched"
+  },
+  "INV-00349": {
+    "expected_bank_transaction": "UTR-00349",
+    "expected_settlement": "SET-00349",
+    "status": "matched"
+  },
+  "INV-00350": {
+    "expected_bank_transaction": "UTR-00350",
+    "expected_settlement": "SET-00350",
+    "status": "matched"
+  },
+  "INV-00351": {
+    "expected_bank_transaction": "UTR-00351",
+    "expected_settlement": "SET-00351",
+    "status": "matched"
+  },
+  "INV-00352": {
+    "expected_bank_transaction": "UTR-00352",
+    "expected_settlement": "SET-00352",
+    "status": "matched"
+  },
+  "INV-00353": {
+    "expected_bank_transaction": "UTR-00353",
+    "expected_settlement": "SET-00353",
+    "status": "matched"
+  },
+  "INV-00354": {
+    "expected_bank_transaction": "UTR-00354",
+    "expected_settlement": "SET-00354",
+    "status": "matched"
+  },
+  "INV-00355": {
+    "expected_bank_transaction": "UTR-00355",
+    "expected_settlement": "SET-00355",
+    "status": "matched"
+  },
+  "INV-00356": {
+    "expected_bank_transaction": "UTR-00356",
+    "expected_settlement": "SET-00356",
+    "status": "matched"
+  },
+  "INV-00357": {
+    "expected_bank_transaction": "UTR-00357",
+    "expected_settlement": "SET-00357",
+    "status": "matched"
+  },
+  "INV-00358": {
+    "expected_bank_transaction": "UTR-00358",
+    "expected_settlement": "SET-00358",
+    "status": "matched"
+  },
+  "INV-00359": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "ambiguous"
+  },
+  "INV-00360": {
+    "expected_bank_transaction": "UTR-00360",
+    "expected_settlement": "SET-00360",
+    "status": "matched"
+  },
+  "INV-00361": {
+    "expected_bank_transaction": "UTR-00361",
+    "expected_settlement": "SET-00361",
+    "status": "matched"
+  },
+  "INV-00362": {
+    "expected_bank_transaction": "UTR-00362",
+    "expected_settlement": "SET-00362",
+    "status": "matched"
+  },
+  "INV-00363": {
+    "expected_bank_transaction": "UTR-00363",
+    "expected_settlement": "SET-00363",
+    "status": "matched"
+  },
+  "INV-00364": {
+    "expected_bank_transaction": "UTR-00364",
+    "expected_settlement": "SET-00364",
+    "status": "matched"
+  },
+  "INV-00365": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00366": {
+    "expected_bank_transaction": "UTR-00366",
+    "expected_settlement": "SET-00366",
+    "status": "matched"
+  },
+  "INV-00367": {
+    "expected_bank_transaction": "UTR-00367",
+    "expected_settlement": "SET-00367",
+    "status": "matched"
+  },
+  "INV-00368": {
+    "expected_bank_transaction": "UTR-00368",
+    "expected_settlement": "SET-00368",
+    "status": "matched"
+  },
+  "INV-00369": {
+    "expected_bank_transaction": "UTR-00369",
+    "expected_settlement": "SET-00369",
+    "status": "matched"
+  },
+  "INV-00370": {
+    "expected_bank_transaction": "UTR-00370",
+    "expected_settlement": "SET-00370",
+    "status": "matched"
+  },
+  "INV-00371": {
+    "expected_bank_transaction": "UTR-00371",
+    "expected_settlement": "SET-00371",
+    "status": "matched"
+  },
+  "INV-00372": {
+    "expected_bank_transaction": "UTR-00372",
+    "expected_settlement": "SET-00372",
+    "status": "matched"
+  },
+  "INV-00373": {
+    "expected_bank_transaction": "UTR-00373",
+    "expected_settlement": "SET-00373",
+    "status": "matched"
+  },
+  "INV-00374": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00375": {
+    "expected_bank_transaction": "UTR-00375",
+    "expected_settlement": "SET-00375",
+    "status": "matched"
+  },
+  "INV-00376": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00377": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "ambiguous"
+  },
+  "INV-00378": {
+    "expected_bank_transaction": "UTR-00378",
+    "expected_settlement": "SET-00378",
+    "status": "matched"
+  },
+  "INV-00379": {
+    "expected_bank_transaction": "UTR-00379",
+    "expected_settlement": "SET-00379",
+    "status": "matched"
+  },
+  "INV-00380": {
+    "expected_bank_transaction": "UTR-00380",
+    "expected_settlement": "SET-00380",
+    "status": "matched"
+  },
+  "INV-00381": {
+    "expected_bank_transaction": "UTR-00381",
+    "expected_settlement": "SET-00381",
+    "status": "matched"
+  },
+  "INV-00382": {
+    "expected_bank_transaction": "UTR-00382",
+    "expected_settlement": "SET-00382",
+    "status": "matched"
+  },
+  "INV-00383": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00383",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00384": {
+    "expected_bank_transaction": "UTR-00384",
+    "expected_settlement": "SET-00384",
+    "status": "matched"
+  },
+  "INV-00385": {
+    "expected_bank_transaction": "UTR-00385",
+    "expected_settlement": "SET-00385",
+    "status": "matched"
+  },
+  "INV-00386": {
+    "expected_bank_transaction": "UTR-00386",
+    "expected_settlement": "SET-00386",
+    "status": "matched"
+  },
+  "INV-00387": {
+    "expected_bank_transaction": "UTR-00387",
+    "expected_settlement": "SET-00387",
+    "status": "matched"
+  },
+  "INV-00388": {
+    "expected_bank_transaction": "UTR-00388",
+    "expected_settlement": "SET-00388",
+    "status": "matched"
+  },
+  "INV-00389": {
+    "expected_bank_transaction": "UTR-00389",
+    "expected_settlement": "SET-00389",
+    "status": "matched"
+  },
+  "INV-00390": {
+    "expected_bank_transaction": "UTR-00390",
+    "expected_settlement": "SET-00390",
+    "status": "matched"
+  },
+  "INV-00391": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00391",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00392": {
+    "expected_bank_transaction": "UTR-00392",
+    "expected_settlement": "SET-00392",
+    "status": "matched"
+  },
+  "INV-00393": {
+    "expected_bank_transaction": "UTR-00393",
+    "expected_settlement": "SET-00393",
+    "status": "matched"
+  },
+  "INV-00394": {
+    "expected_bank_transaction": "UTR-00394",
+    "expected_settlement": "SET-00394",
+    "status": "matched"
+  },
+  "INV-00395": {
+    "expected_bank_transaction": "UTR-00395",
+    "expected_settlement": "SET-00395",
+    "status": "matched"
+  },
+  "INV-00396": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00397": {
+    "expected_bank_transaction": "UTR-00397",
+    "expected_settlement": "SET-00397",
+    "status": "matched"
+  },
+  "INV-00398": {
+    "expected_bank_transaction": "UTR-00398",
+    "expected_settlement": "SET-00398",
+    "status": "matched"
+  },
+  "INV-00399": {
+    "expected_bank_transaction": "UTR-00399",
+    "expected_settlement": "SET-00399",
+    "status": "matched"
+  },
+  "INV-00400": {
+    "expected_bank_transaction": "UTR-00400",
+    "expected_settlement": "SET-00400",
+    "status": "matched"
+  },
+  "INV-00401": {
+    "expected_bank_transaction": "UTR-00401",
+    "expected_settlement": "SET-00401",
+    "status": "matched"
+  },
+  "INV-00402": {
+    "expected_bank_transaction": "UTR-00402",
+    "expected_settlement": "SET-00402",
+    "status": "matched"
+  },
+  "INV-00403": {
+    "expected_bank_transaction": "UTR-00403",
+    "expected_settlement": "SET-00403",
+    "status": "matched"
+  },
+  "INV-00404": {
+    "expected_bank_transaction": "UTR-00404",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00405": {
+    "expected_bank_transaction": "UTR-00405",
+    "expected_settlement": "SET-00405",
+    "status": "matched"
+  },
+  "INV-00406": {
+    "expected_bank_transaction": "UTR-00406",
+    "expected_settlement": "SET-00406",
+    "status": "matched"
+  },
+  "INV-00407": {
+    "expected_bank_transaction": "UTR-00407",
+    "expected_settlement": "SET-00407",
+    "status": "matched"
+  },
+  "INV-00408": {
+    "expected_bank_transaction": "UTR-00408",
+    "expected_settlement": "SET-00408",
+    "status": "matched"
+  },
+  "INV-00409": {
+    "expected_bank_transaction": "UTR-00409",
+    "expected_settlement": "SET-00409",
+    "status": "matched"
+  },
+  "INV-00410": {
+    "expected_bank_transaction": "UTR-00410",
+    "expected_settlement": "SET-00410",
+    "status": "matched"
+  },
+  "INV-00411": {
+    "expected_bank_transaction": "UTR-00411",
+    "expected_settlement": "SET-00411",
+    "status": "matched"
+  },
+  "INV-00412": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "ambiguous"
+  },
+  "INV-00413": {
+    "expected_bank_transaction": "UTR-00413",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00414": {
+    "expected_bank_transaction": "UTR-00414",
+    "expected_settlement": "SET-00414",
+    "status": "matched"
+  },
+  "INV-00415": {
+    "expected_bank_transaction": "UTR-00415",
+    "expected_settlement": "SET-00415",
+    "status": "matched"
+  },
+  "INV-00416": {
+    "expected_bank_transaction": "UTR-00416",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00417": {
+    "expected_bank_transaction": "UTR-00417",
+    "expected_settlement": "SET-00417",
+    "status": "matched"
+  },
+  "INV-00418": {
+    "expected_bank_transaction": "UTR-00418",
+    "expected_settlement": "SET-00418",
+    "status": "matched"
+  },
+  "INV-00419": {
+    "expected_bank_transaction": "UTR-00419",
+    "expected_settlement": "SET-00419",
+    "status": "matched"
+  },
+  "INV-00420": {
+    "expected_bank_transaction": "UTR-00420",
+    "expected_settlement": "SET-00420",
+    "status": "matched"
+  },
+  "INV-00421": {
+    "expected_bank_transaction": "UTR-00421",
+    "expected_settlement": "SET-00421",
+    "status": "matched"
+  },
+  "INV-00422": {
+    "expected_bank_transaction": "UTR-00422",
+    "expected_settlement": "SET-00422",
+    "status": "matched"
+  },
+  "INV-00423": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00424": {
+    "expected_bank_transaction": "UTR-00424",
+    "expected_settlement": "SET-00424",
+    "status": "matched"
+  },
+  "INV-00425": {
+    "expected_bank_transaction": "UTR-00425",
+    "expected_settlement": "SET-00425",
+    "status": "matched"
+  },
+  "INV-00426": {
+    "expected_bank_transaction": "UTR-00426",
+    "expected_settlement": "SET-00426",
+    "status": "matched"
+  },
+  "INV-00427": {
+    "expected_bank_transaction": "UTR-00427",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00428": {
+    "expected_bank_transaction": "UTR-00428",
+    "expected_settlement": "SET-00428",
+    "status": "matched"
+  },
+  "INV-00429": {
+    "expected_bank_transaction": "UTR-00429",
+    "expected_settlement": "SET-00429",
+    "status": "matched"
+  },
+  "INV-00430": {
+    "expected_bank_transaction": "UTR-00430",
+    "expected_settlement": "SET-00430",
+    "status": "matched"
+  },
+  "INV-00431": {
+    "expected_bank_transaction": "UTR-00431",
+    "expected_settlement": "SET-00431",
+    "status": "matched"
+  },
+  "INV-00432": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "ambiguous"
+  },
+  "INV-00433": {
+    "expected_bank_transaction": "UTR-00433",
+    "expected_settlement": "SET-00433",
+    "status": "matched"
+  },
+  "INV-00434": {
+    "expected_bank_transaction": "UTR-00434",
+    "expected_settlement": "SET-00434",
+    "status": "matched"
+  },
+  "INV-00435": {
+    "expected_bank_transaction": "UTR-00435",
+    "expected_settlement": "SET-00435",
+    "status": "matched"
+  },
+  "INV-00436": {
+    "expected_bank_transaction": "UTR-00436",
+    "expected_settlement": "SET-00436",
+    "status": "matched"
+  },
+  "INV-00437": {
+    "expected_bank_transaction": "UTR-00437",
+    "expected_settlement": "SET-00437",
+    "status": "matched"
+  },
+  "INV-00438": {
+    "expected_bank_transaction": "UTR-00438",
+    "expected_settlement": "SET-00438",
+    "status": "matched"
+  },
+  "INV-00439": {
+    "expected_bank_transaction": "UTR-00439",
+    "expected_settlement": "SET-00439",
+    "status": "matched"
+  },
+  "INV-00440": {
+    "expected_bank_transaction": "UTR-00440",
+    "expected_settlement": "SET-00440",
+    "status": "matched"
+  },
+  "INV-00441": {
+    "expected_bank_transaction": "UTR-00441",
+    "expected_settlement": "SET-00441",
+    "status": "matched"
+  },
+  "INV-00442": {
+    "expected_bank_transaction": "UTR-00442",
+    "expected_settlement": "SET-00442",
+    "status": "matched"
+  },
+  "INV-00443": {
+    "expected_bank_transaction": "UTR-00443",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00444": {
+    "expected_bank_transaction": "UTR-00444",
+    "expected_settlement": "SET-00444",
+    "status": "matched"
+  },
+  "INV-00445": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00446": {
+    "expected_bank_transaction": "UTR-00446",
+    "expected_settlement": "SET-00446",
+    "status": "matched"
+  },
+  "INV-00447": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00448": {
+    "expected_bank_transaction": "UTR-00448",
+    "expected_settlement": "SET-00448",
+    "status": "matched"
+  },
+  "INV-00449": {
+    "expected_bank_transaction": "UTR-00449",
+    "expected_settlement": "SET-00449",
+    "status": "matched"
+  },
+  "INV-00450": {
+    "expected_bank_transaction": "UTR-00450",
+    "expected_settlement": "SET-00450",
+    "status": "matched"
+  },
+  "INV-00451": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00451",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00452": {
+    "expected_bank_transaction": "UTR-00452",
+    "expected_settlement": "SET-00452",
+    "status": "matched"
+  },
+  "INV-00453": {
+    "expected_bank_transaction": "UTR-00453",
+    "expected_settlement": "SET-00453",
+    "status": "matched"
+  },
+  "INV-00454": {
+    "expected_bank_transaction": "UTR-00454",
+    "expected_settlement": "SET-00454",
+    "status": "matched"
+  },
+  "INV-00455": {
+    "expected_bank_transaction": "UTR-00455",
+    "expected_settlement": "SET-00455",
+    "status": "matched"
+  },
+  "INV-00456": {
+    "expected_bank_transaction": "UTR-00456",
+    "expected_settlement": "SET-00456",
+    "status": "matched"
+  },
+  "INV-00457": {
+    "expected_bank_transaction": "UTR-00457",
+    "expected_settlement": "SET-00457",
+    "status": "matched"
+  },
+  "INV-00458": {
+    "expected_bank_transaction": "UTR-00458",
+    "expected_settlement": "SET-00458",
+    "status": "matched"
+  },
+  "INV-00459": {
+    "expected_bank_transaction": "UTR-00459",
+    "expected_settlement": "SET-00459",
+    "status": "matched"
+  },
+  "INV-00460": {
+    "expected_bank_transaction": "UTR-00460",
+    "expected_settlement": "SET-00460",
+    "status": "matched"
+  },
+  "INV-00461": {
+    "expected_bank_transaction": "UTR-00461",
+    "expected_settlement": "SET-00461",
+    "status": "matched"
+  },
+  "INV-00462": {
+    "expected_bank_transaction": "UTR-00462",
+    "expected_settlement": "SET-00462",
+    "status": "matched"
+  },
+  "INV-00463": {
+    "expected_bank_transaction": "UTR-00463",
+    "expected_settlement": "SET-00463",
+    "status": "matched"
+  },
+  "INV-00464": {
+    "expected_bank_transaction": "UTR-00464",
+    "expected_settlement": "SET-00464",
+    "status": "matched"
+  },
+  "INV-00465": {
+    "expected_bank_transaction": "UTR-00465",
+    "expected_settlement": "SET-00465",
+    "status": "matched"
+  },
+  "INV-00466": {
+    "expected_bank_transaction": "UTR-00466",
+    "expected_settlement": "SET-00466",
+    "status": "matched"
+  },
+  "INV-00467": {
+    "expected_bank_transaction": "UTR-00467",
+    "expected_settlement": "SET-00467",
+    "status": "matched"
+  },
+  "INV-00468": {
+    "expected_bank_transaction": "UTR-00468",
+    "expected_settlement": "SET-00468",
+    "status": "matched"
+  },
+  "INV-00469": {
+    "expected_bank_transaction": "UTR-00469",
+    "expected_settlement": "SET-00469",
+    "status": "matched"
+  },
+  "INV-00470": {
+    "expected_bank_transaction": "UTR-00470",
+    "expected_settlement": "SET-00470",
+    "status": "matched"
+  },
+  "INV-00471": {
+    "expected_bank_transaction": "UTR-00471",
+    "expected_settlement": "SET-00471",
+    "status": "matched"
+  },
+  "INV-00472": {
+    "expected_bank_transaction": "UTR-00472",
+    "expected_settlement": "SET-00472",
+    "status": "matched"
+  },
+  "INV-00473": {
+    "expected_bank_transaction": "UTR-00473",
+    "expected_settlement": "SET-00473",
+    "status": "matched"
+  },
+  "INV-00474": {
+    "expected_bank_transaction": "UTR-00474",
+    "expected_settlement": "SET-00474",
+    "status": "matched"
+  },
+  "INV-00475": {
+    "expected_bank_transaction": "UTR-00475",
+    "expected_settlement": "SET-00475",
+    "status": "matched"
+  },
+  "INV-00476": {
+    "expected_bank_transaction": "UTR-00476",
+    "expected_settlement": "SET-00476",
+    "status": "matched"
+  },
+  "INV-00477": {
+    "expected_bank_transaction": "UTR-00477",
+    "expected_settlement": "SET-00477",
+    "status": "matched"
+  },
+  "INV-00478": {
+    "expected_bank_transaction": "UTR-00478",
+    "expected_settlement": "SET-00478",
+    "status": "matched"
+  },
+  "INV-00479": {
+    "expected_bank_transaction": "UTR-00479",
+    "expected_settlement": "SET-00479",
+    "status": "matched"
+  },
+  "INV-00480": {
+    "expected_bank_transaction": "UTR-00480",
+    "expected_settlement": "SET-00480",
+    "status": "matched"
+  },
+  "INV-00481": {
+    "expected_bank_transaction": "UTR-00481",
+    "expected_settlement": "SET-00481",
+    "status": "matched"
+  },
+  "INV-00482": {
+    "expected_bank_transaction": "UTR-00482",
+    "expected_settlement": "SET-00482",
+    "status": "matched"
+  },
+  "INV-00483": {
+    "expected_bank_transaction": "UTR-00483",
+    "expected_settlement": "SET-00483",
+    "status": "matched"
+  },
+  "INV-00484": {
+    "expected_bank_transaction": "UTR-00484",
+    "expected_settlement": "SET-00484",
+    "status": "matched"
+  },
+  "INV-00485": {
+    "expected_bank_transaction": "UTR-00485",
+    "expected_settlement": "SET-00485",
+    "status": "matched"
+  },
+  "INV-00486": {
+    "expected_bank_transaction": "UTR-00486",
+    "expected_settlement": "SET-00486",
+    "status": "matched"
+  },
+  "INV-00487": {
+    "expected_bank_transaction": "UTR-00487",
+    "expected_settlement": "SET-00487",
+    "status": "matched"
+  },
+  "INV-00488": {
+    "expected_bank_transaction": "UTR-00488",
+    "expected_settlement": "SET-00488",
+    "status": "matched"
+  },
+  "INV-00489": {
+    "expected_bank_transaction": null,
+    "expected_settlement": null,
+    "status": "duplicate"
+  },
+  "INV-00490": {
+    "expected_bank_transaction": "UTR-00490",
+    "expected_settlement": "SET-00490",
+    "status": "matched"
+  },
+  "INV-00491": {
+    "expected_bank_transaction": "UTR-00491",
+    "expected_settlement": "SET-00491",
+    "status": "matched"
+  },
+  "INV-00492": {
+    "expected_bank_transaction": "UTR-00492",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00493": {
+    "expected_bank_transaction": "UTR-00493",
+    "expected_settlement": "SET-00493",
+    "status": "matched"
+  },
+  "INV-00494": {
+    "expected_bank_transaction": null,
+    "expected_settlement": "SET-00494",
+    "status": "missing_bank_transaction"
+  },
+  "INV-00495": {
+    "expected_bank_transaction": "UTR-00495",
+    "expected_settlement": "SET-00495",
+    "status": "matched"
+  },
+  "INV-00496": {
+    "expected_bank_transaction": "UTR-00496",
+    "expected_settlement": "SET-00496",
+    "status": "matched"
+  },
+  "INV-00497": {
+    "expected_bank_transaction": "UTR-00497",
+    "expected_settlement": "SET-00497",
+    "status": "matched"
+  },
+  "INV-00498": {
+    "expected_bank_transaction": "UTR-00498",
+    "expected_settlement": "SET-00498",
+    "status": "matched"
+  },
+  "INV-00499": {
+    "expected_bank_transaction": "UTR-00499",
+    "expected_settlement": null,
+    "status": "matched"
+  },
+  "INV-00500": {
+    "expected_bank_transaction": "UTR-00500",
+    "expected_settlement": "SET-00500",
+    "status": "matched"
+  }
+}
